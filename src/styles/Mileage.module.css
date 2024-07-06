@@ -1,0 +1,12 @@
+.mileage {
+  margin-left: .5em;
+  font-size: .75em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Media query for if system preference is dark mode */
+@media (prefers-color-scheme: dark) {
+  .mileage {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

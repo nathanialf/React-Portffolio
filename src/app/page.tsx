@@ -1,8 +1,9 @@
+import Copyright from '../ui/Copyright';
+import DEFNFImage from '../ui/DEFNFImage';
 import Image from 'next/image';
+import Mileage from '../ui/Mileage';
 import SocialLink from '../ui/SocialLink';
 import UnderscoreLink from '../ui/UnderscoreLink';
-import DEFNFImage from '../ui/DEFNFImage';
-import Copyright from '../ui/Copyright';
 import {
   IconBrandAmazon,
   IconBrandDiscord,
@@ -45,7 +46,8 @@ export default function Homepage() {
 
         <span className={styles.title}>
           <IconMapPin stroke={2} width='1em' height='1em' />
-          San Francisco
+          San Francisco 
+          <Mileage lat='39.7691' lng='86.1580'/>
         </span>
         <span className={styles.title}>
           <IconBrandAmazon stroke={2} width='1em' height='1em' />
