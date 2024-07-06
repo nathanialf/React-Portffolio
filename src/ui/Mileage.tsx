@@ -43,6 +43,7 @@ export default function Mileage(props) {
   return (
     headersList.get('request-geo') &&
     <span className={styles.mileage}>
+      {headersList.get('request-geo')}
       {getDistance(pointSF.lat, pointSF.lng, props.lat, props.lng, 'M')} mi. away
     </span>
   )
